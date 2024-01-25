@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>What's The Temperature?</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>What's The Temperature?</h1>
+
+        <p>Enter a latitude and longitude and see what the temperature is there!</p>
+
+        <label>Latitude:</label>
+        <input type="text" id="latitude">
+        
+        <br>
+        <br>
+        
+        <label>Longtitude:</label>
+        <input type="text" id="longitude">
+
+        <br>
+        <br>
+
+        <input type="radio" name="temperature-units" id="celsius">
+        <label>Celsius</label>
+
+        <br>
+
+        <input type="radio" name="temperature-units" id="fahrenheit">
+        <label>Fahrenheit</label>
+
+        <br>
+        <br>
+
+        <button id="get-weather">Get Weather</button>
+
+        <p id="weather-output"></p>
+
+        <script src="index.js"></script>
+    </body>
+</html>
